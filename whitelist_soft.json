@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "domains": [
+    "github.com",
+    "stackoverflow.com",
+    "readthedocs.io",
+    "docs.python.org",
+    "developer.mozilla.org",
+    "wikipedia.org",
+    "ietf.org",
+    "w3.org",
+    "arxiv.org",
+    "openai.com",
+    "cloudflare.com",
+    "stripe.com",
+    "developer.apple.com",
+    "learn.microsoft.com",
+    "aws.amazon.com",
+    "developers.google.com",
+    "npmjs.com",
+    "pypi.org",
+    "huggingface.co"
+  ]
+}
