@@ -1,0 +1,37 @@
+{
+  "version": 1,
+
+  "global": {
+    "allow_global_search": true,
+    "default_language": "zh",
+    "min_sources_to_cite_when_web": 2,
+    "max_sources_to_fetch_per_query": 6,
+    "prefer_recent_days": 180
+  },
+
+  "ingest": {
+    "require_user_confirm_to_ingest": true,
+    "ingest_requires_hard_whitelist": true,
+    "deny_if_domain_in_blacklist": true,
+    "store_url": true,
+    "store_fetched_at": true,
+    "store_title": true,
+    "store_snippet": true
+  },
+
+  "pp_mode": {
+    "prefer_official_sources": true,
+    "hard_priority_domains": [
+      "developer.paypal.com",
+      "paypal.com"
+    ],
+    "when_conflict": "official_wins",
+    "warn_if_non_official": true
+  },
+
+  "safety": {
+    "block_prompt_injection_patterns": true,
+    "strip_tracking_params": true,
+    "reject_pages_without_main_content": true
+  }
+}
